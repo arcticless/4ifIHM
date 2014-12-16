@@ -68,9 +68,9 @@
         <icon>HandPointIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="30" controlTypeID="com.balsamiq.mockups::Accordion" x="943" y="342" w="150" h="24" measuredW="150" measuredH="105" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Accordion" x="943" y="342" w="150" h="61" measuredW="150" measuredH="132" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Supprimer</text>
+        <text>Supprimer%0AContacter%20client</text>
       </controlProperties>
     </control>
     <control controlID="31" controlTypeID="com.balsamiq.mockups::Icon" x="335" y="358" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
