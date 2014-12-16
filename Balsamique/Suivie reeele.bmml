@@ -84,5 +84,10 @@
         <text>Revenir%20a%20la%20preparation</text>
       </controlProperties>
     </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Button" x="873" y="116" w="143" h="27" measuredW="112" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Appeller%20livreur</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
