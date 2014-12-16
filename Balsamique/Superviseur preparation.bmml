@@ -3,7 +3,7 @@
     <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="467" y="192" w="712" h="485" measuredW="752" measuredH="463" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <src>../../Pictures/plan10+google.png</src>
+        <src>./plan10+google.png</src>
       </controlProperties>
     </control>
     <control controlID="10" controlTypeID="com.balsamiq.mockups::ComboBox" x="972" y="140" w="93" h="-1" measuredW="78" measuredH="62" zOrder="2" locked="false" isInGroup="-1">
@@ -23,7 +23,7 @@
     </control>
     <control controlID="15" controlTypeID="com.balsamiq.mockups::Image" x="261" y="140" w="206" h="429" measuredW="206" measuredH="425" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../../Pictures/plages.png</src>
+        <src>./plages.png</src>
         <text/>
       </controlProperties>
     </control>
