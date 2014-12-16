@@ -3,7 +3,7 @@
     <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="467" y="192" w="712" h="485" measuredW="867" measuredH="501" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <src>../../Pictures/temps%2520reel.png</src>
+        <src>./temps%2520reel.png</src>
       </controlProperties>
     </control>
     <control controlID="11" controlTypeID="com.balsamiq.mockups::ProgressBar" x="467" y="140" w="521" h="26" measuredW="100" measuredH="20" zOrder="2" locked="false" isInGroup="-1">
@@ -29,7 +29,7 @@
     </control>
     <control controlID="15" controlTypeID="com.balsamiq.mockups::Image" x="261" y="140" w="206" h="429" measuredW="206" measuredH="425" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../../Pictures/plages%2520-%2520Copy.png</src>
+        <src>./plages%2520-%2520Copy.png</src>
         <text/>
       </controlProperties>
     </control>
