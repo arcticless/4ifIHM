@@ -76,7 +76,7 @@
           <a class="brand" href="index.php">OL</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Bienvenue <a href="#" class="navbar-link">Okba SAPIN</a>
+              Bienvenue <a href="#" class="navbar-link">Okba BRAD</a>
             </p>
             <ul class="nav">
               <li class="active"><a href="index.php">Livraison</a></li>
@@ -149,7 +149,7 @@
 			id: 'examples.map-i875mjb7'
 		}).addTo(map);
 
-
+		map.addControl( new L.Control.Gps({autoActive:true}) );//inizialize control
 
 		/*L.polygon([
 			[51.509, -0.08],
@@ -212,11 +212,51 @@
 			fillColor: 'red',
 			fillOpacity: 0.5
 		}).addTo(map).bindPopup("IUT");
-		L.circle([45.78491, 4.88913], 100, {
+		L.circle([45.78159, 4.88694], 100, {
 			color: 'darkgrey',
 			fillColor: 'red',
 			fillOpacity: 0.5
 		}).addTo(map).bindPopup("Pizzeria le Boulet");
+		L.circle([45.77809, 4.879], 100, {
+			color: 'darkgrey',
+			fillColor: 'red',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("Epicerie KIKI");
+		L.circle([45.77348, 4.88063], 100, {
+			color: 'darkgrey',
+			fillColor: 'red',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("Tournevis Shop");
+		L.circle([45.77192, 4.87261], 100, {
+			color: 'darkgrey',
+			fillColor: 'red',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("Leader Price");
+		L.circle([45.77227, 4.86632], 100, {
+			color: 'darkgrey',
+			fillColor: 'red',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("McDonald's");
+		L.circle([45.77161, 4.86742], 100, {
+			color: 'darkgrey',
+			fillColor: 'red',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("Café Dégueux");
+		L.circle([45.77393, 4.86209], 100, {
+			color: 'darkgrey',
+			fillColor: 'red',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("Restaurant Jojo");
+		L.circle([45.77878, 4.86493], 100, {
+			color: 'darkgrey',
+			fillColor: 'red',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("Chocolat Praliné");
+		L.circle([45.77692, 4.87463], 100, {
+			color: 'darkgrey',
+			fillColor: 'red',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("Carrefour Market");
 		
 		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

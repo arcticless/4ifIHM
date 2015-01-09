@@ -76,7 +76,7 @@
           <a class="brand" href="index.php">OL</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Bienvenue <a href="#" class="navbar-link">Okba SAPIN</a>
+              Bienvenue <a href="#" class="navbar-link">Okba BRAD</a>
             </p>
             <ul class="nav">
               <li class="active"><a href="index.php">Livraison</a></li>
@@ -109,13 +109,11 @@
 			  </a>
 			</ul>
             <ul class="nav nav-list">
-              <li style="margin-top:15px;"><p><a href="index.php" style="float:right;width:80%" class="btn btn-primary btn-large">Client absent</a></p></li>
-              <li style="margin-top:15px;"><p><a href="assistance.php" style="float:right;width:80%" class="btn btn-primary btn-large">Colis refusé/Litige</a></p></li>
-              <li style="margin-top:15px;"><p><a href="assistance.php" style="float:right;width:80%" class="btn btn-primary btn-large">Inaccessible</a></p></li>
-              <li style="margin-top:15px;"><p><a href="assistance.php" style="float:right;width:80%" class="btn btn-primary btn-large">Autres...</a></p></li>
+              <li style="margin-top:15px;"><p><a href="#" onClick="if (confirm('Client Absent ?'))window.location.href = 'index.php'; else null;" style="float:right;width:80%" class="btn btn-primary btn-large">Client absent</a></p></li>
+              <li style="margin-top:15px;"><p><a href="#" onClick="if (confirm('Litige lors de la remise du Colis ?'))window.location.href = 'index.php'; else null;" style="float:right;width:80%" class="btn btn-primary btn-large">Colis refusé/Litige</a></p></li>
+              <li style="margin-top:15px;"><p><a href="#" onClick="if (confirm('Point de récéption inaccessible ?'))window.location.href = 'index.php'; else null;" style="float:right;width:80%" class="btn btn-primary btn-large">Inaccessible</a></p></li>
+              <li style="margin-top:15px;"><p><a href="#" onClick="var prob = prompt('La nature du problème ?', '') ;if (prob!= null)window.location.href = 'index.php?why='+prob; else null;" style="float:right;width:80%" class="btn btn-primary btn-large">Autres...</a></p></li>
               <li style="margin-top:15px;"><p><a href="index.php" style="float:right;width:80%" class="btn btn-large ">Retour livraison</a></p></li>
-
-              
             </ul>
 
           </div><!--/.well -->

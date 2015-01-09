@@ -76,7 +76,7 @@
           <a class="brand" href="index.php">OL</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Bienvenue <a href="#" class="navbar-link">Okba SAPIN</a>
+              Bienvenue <a href="#" class="navbar-link">Okba BRAD</a>
             </p>
             <ul class="nav">
               <li class="active"><a href="index.php">Livraison</a></li>
@@ -96,9 +96,9 @@
           <div class="hero-unit" style="">
            
 			<ul class="nav nav-list" style="margin-top:8px; text-align:center;">
-			 <li style="margin-top:0px;"><p style="font-size:18px">50 Stylos bleus BIC</p></li>
-			 <li style="margin-top:0px;"><p style="font-size:18px">3 Agrafeuses rouges</p></li>
-			 <li style="margin-top:0px;"><p style="font-size:18px">100 Papiers blancs A4 </p></li>
+
+			 <li style="margin-top:0px;"><p style="font-size:18px">L'adresse de facturation</p></li>
+			 <li style="margin-top:0px;"><p style="font-size:18px"><b>33 Avenue Einstein - 69100 Villeurbanne</b></p></li>
 
 			</ul>
           </div>
@@ -112,9 +112,8 @@
 			  </a>
 			</ul>
             <ul class="nav nav-list">
-              <li style="margin-top:15px;"><p><a href="index.php" style="float:right;width:80%" class="btn btn-primary btn-large">Articles manquants</a></p></li>
-              <li style="margin-top:15px;"><p><a href="assistance.php" style="float:right;width:80%" class="btn btn-primary btn-large">Colis refusé/Litige</a></p></li>
-              <li style="margin-top:15px;"><p><a href="index.php" style="float:right;width:80%" class="btn btn-primary btn-large">Autres...</a></p></li>
+              <li style="margin-top:15px;"><p><a href="#" onClick="if (confirm('Le colis a été refusé ?'))window.location.href = 'index.php'; else null;" style="float:right;width:80%" class="btn btn-primary btn-large">Colis refusé/Litige</a></p></li>
+              <li style="margin-top:15px;"><p><a href="#" onClick="var prob = prompt('Pourquoi le colis a été refusé ?', '') ;if (prob!= null)window.location.href = 'index.php?why='+prob; else null;"  style="float:right;width:80%" class="btn btn-primary btn-large">Autres...</a></p></li>
               <li style="margin-top:15px;"><p><a href="jelivre.php" style="float:right;width:80%" class="btn  btn-large">Retour</a></p></li>
 
               

@@ -46,9 +46,10 @@
 	<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet/less" type="text/css" href="css/variables.less">
 	<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	
-	
+	<script type="text/javascript" src="js/countdown.js"></script>
 	<script type="text/javascript">
 
  $(document).ready(function(){	
@@ -76,7 +77,7 @@
           <a class="brand" href="index.php">OL</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Bienvenue <a href="#" class="navbar-link">Okba SAPIN</a>
+              Bienvenue <a href="#" class="navbar-link">Okba BRAD</a>
             </p>
             <ul class="nav">
               <li class="active"><a href="index.php">Livraison</a></li>
@@ -103,11 +104,10 @@
 		
 		<div class="span3" style="float:right;">
           <div class="sidebar-nav" >
-			<ul class="nav nav-list" style="margin-top:-20px; text-align:center;"><a href="#" class=" btn ">
-			 <li style="margin-top:0px;"><p style="font-size:18px"><b>Bloqué ici : </b><br/>10 rue de la Physique - 69100 Villeurbanne</p></li>
-			  <li style="margin-top:0px;"><p style="font-size:18px; margin-top:0px;"><b>Temps écoulé dans l'embouteillage : </b><br/>5min 35sec</p></li>
-			  </a>
-			</ul>
+			<div style="text-align:center">
+			 <p style="font-size:18px"><b>Bloqué ici : </b><br/>10 rue de la Physique - 69100 Villeurbanne</p>
+			  <p style="font-size:18px; margin-top:0px;"><b>Temps écoulé dans l'embouteillage : </b><br/><span id="compteurMin">0</span> min <span id="compteurSec">0</span> sec</p>
+			</div>
             <ul class="nav nav-list">
               <li style="margin-top:15px;"><p><a href="index.php" style="float:right;width:80%" class="btn btn-primary btn-large">Embouteillage terminé</a></p></li>
               <li style="margin-top:15px;"><p><a href="assistance.php" style="float:right;width:80%" class="btn btn-primary btn-large">Assistance</a></p></li>
@@ -192,6 +192,7 @@
 		}
 
 		map.on('click', onMapClick);
+
 	</script>
   </body>
 

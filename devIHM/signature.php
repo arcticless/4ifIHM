@@ -76,7 +76,7 @@
           <a class="brand" href="index.php">OL</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Bienvenue <a href="#" class="navbar-link">Okba SAPIN</a>
+              Bienvenue <a href="#" class="navbar-link">Okba BRAD</a>
             </p>
             <ul class="nav">
               <li class="active"><a href="index.php">Livraison</a></li>
@@ -91,27 +91,14 @@
     <div class="container-fluid" >
       <div class="row-fluid" style="padding-right:-50px">
        
-	   
-        <div class="span10" style="background:#FFF;">
-          <div class="hero-unit" style="">
-           
-			<ul class="nav nav-list" style="margin-top:8px; text-align:center;">
-			 <li style="margin-top:0px;"><img src="img/signature.png"/></li>
-
-
-			</ul>
-          </div>
-		  
-
-		
-		<div class="span3" style="float:right;">
+	   <div class="span3" style="float:right;">
           <div class="sidebar-nav" >
 			<ul class="nav nav-list" style="margin-top:-20px; text-align:center;"><a href="index.php" class=" btn ">
 			 <li style="margin-top:0px;"><p style="font-size:18px"><b>Valider<br/></b>Terminer la livraison</p></li>
 			  </a>
 			</ul>
             <ul class="nav nav-list">
-              <li style="margin-top:15px;"><p><a href="#" style="float:right;width:80%" class="btn btn-primary btn-large">Effacer</a></p></li>
+              <li style="margin-top:15px;"><p><a href="#" onclick="document.getElementById('signatureIMG').src = 'img/signature_blank.png';" style="float:right;width:80%" class="btn btn-primary btn-large">Effacer</a></p></li>
             
               <li style="margin-top:15px;"><p><a href="reception.php" style="float:right;width:80%" class="btn  btn-large">Retour</a></p></li>
 
@@ -120,6 +107,20 @@
 
           </div><!--/.well -->
         </div><!--/span-->
+		<br/>
+        <div class="span9" style="background:#FFF;float:left;">
+          <div class="hero-unit" style="">
+           
+			<ul class="nav nav-list" style="margin-top:8px; text-align:center;">
+			 <li style="margin-top:0px;"><img id="signatureIMG" onclick="this.src = 'img/signature.png';" src="img/signature_blank.png" style="cursor:pointer;"/></li>
+
+
+			</ul>
+          </div>
+		  
+
+		
+		
       </div><!--/row-->
 
 

@@ -76,7 +76,7 @@
           <a class="brand" href="index.php">OL</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Bienvenue <a href="#" class="navbar-link">Okba SAPIN</a>
+              Bienvenue <a href="#" class="navbar-link">Okba BRAD</a>
             </p>
             <ul class="nav">
               <li ><a href="index.php">Livraison</a></li>
@@ -100,7 +100,7 @@
           </div>
 		<div class="span3" style="float:right;">
           <div class="sidebar-nav" >
-			<p style="font-size:18px; text-align:center;"><b>Votre superviseur : </b><br/>Simon GAZON<br/><span style="font-size:12px">Envoyer un mail</span></p>
+			<p style="font-size:18px; text-align:center;"><b>Votre superviseur : </b><br/>Simon GAZON<br/></p>
             <ul class="nav nav-list">
               <li style="margin-top:15px;"><p><a href="mailto:simon.gazon@optimodlyon.com" style="float:right;width:80%" class="btn btn-primary btn-large">Envoyer un mail</a></p></li>
               <li style="margin-top:15px;"><p><a href="#" style="float:right;width:80%" class="btn btn-primary btn-large">Appeler superviseur...</a></p></li>
@@ -138,7 +138,7 @@
 
 
 		L.marker([45.781645, 4.872941]).addTo(map)
-			.bindPopup("<b>Vous êtes ici</b><br />Okba SAPIN.").openPopup();
+			.bindPopup("<b>Vous êtes ici</b><br />Okba BRAD.").openPopup();
 
 		/*L.circle([51.508, -0.11], 500, {
 			color: 'red',
