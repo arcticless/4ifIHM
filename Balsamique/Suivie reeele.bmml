@@ -6,13 +6,13 @@
         <src>./temps%2520reel.png</src>
       </controlProperties>
     </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::ProgressBar" x="467" y="140" w="521" h="26" measuredW="100" measuredH="20" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::ProgressBar" x="467" y="140" w="452" h="26" measuredW="100" measuredH="20" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <indeterminate>false</indeterminate>
         <scrollBarValue>81</scrollBarValue>
       </controlProperties>
     </control>
-    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextInput" x="860" y="140" w="128" h="-1" measuredW="41" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextInput" x="829" y="140" w="90" h="-1" measuredW="41" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <text>75%25</text>
       </controlProperties>
@@ -22,7 +22,7 @@
         <text>Point%20Suivant%20%3A%20rue%20des%20Chavannes%2013%20</text>
       </controlProperties>
     </control>
-    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextInput" x="821" y="167" w="265" h="-1" measuredW="153" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextInput" x="723" y="167" w="265" h="-1" measuredW="153" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Temps%20restant%3A%20%7E20min</text>
       </controlProperties>
@@ -48,9 +48,9 @@
         <text>Calculer%20Tournee</text>
       </controlProperties>
     </control>
-    <control controlID="22" controlTypeID="com.balsamiq.mockups::ComboBox" x="988" y="141" w="191" h="-1" measuredW="168" measuredH="62" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::ComboBox" x="988" y="141" w="191" h="-1" measuredW="121" measuredH="62" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Zone%201%20-%20Anthony%20Navet%0AZone%202%20-%20Okba%20Sapin%0AZone%203%20-%20Hoang%20Potiron</text>
+        <text>Anthony%20Origan%0AOkba%20Sapin%0AHoang%20Potiron</text>
       </controlProperties>
     </control>
     <control controlID="24" controlTypeID="com.balsamiq.mockups::ComboBox" x="261" y="115" w="139" h="-1" measuredW="69" measuredH="93" zOrder="10" locked="false" isInGroup="-1">
@@ -68,9 +68,9 @@
         <icon>HandPointIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="30" controlTypeID="com.balsamiq.mockups::Accordion" x="943" y="342" w="150" h="61" measuredW="150" measuredH="132" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Accordion" x="943" y="342" w="150" h="87" measuredW="150" measuredH="159" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Supprimer%0AContacter%20client</text>
+        <text>Supprimer%0AContacter%20client%0AAfficher%20infos%20client</text>
       </controlProperties>
     </control>
     <control controlID="31" controlTypeID="com.balsamiq.mockups::Icon" x="335" y="358" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
@@ -79,14 +79,44 @@
       </controlProperties>
     </control>
     <control controlID="32" controlTypeID="com.balsamiq.mockups::VSlider" x="425" y="331" w="-1" h="-1" measuredW="11" measuredH="33" zOrder="15" locked="false" isInGroup="-1"/>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Button" x="1016" y="116" w="-1" h="-1" measuredW="163" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Button" x="919" y="116" w="-1" h="-1" measuredW="163" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>Superviseur%20preparation%26bm%3BSuperviseur%20preparation.bmml%26bm%3BSuperviseur%20preparation.bmml%26bm%3BSuperviseur%20preparation.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22658%2C25%2C821%2C52%22%20href%3D%22Superviseur%2520preparation.bmml%22%20alt%3D%22Superviseur%20preparation%22%20id%3D%2235%22/%3E</map>
         <text>Revenir%20a%20la%20preparation</text>
       </controlProperties>
     </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Button" x="873" y="116" w="143" h="27" measuredW="112" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Button" x="515" y="116" w="143" h="27" measuredW="112" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Appeller%20livreur</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::ComboBox" x="919" y="141" w="67" h="-1" measuredW="70" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>Zone%201%0AZone%202%0AZone%203</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Button" x="1081" y="116" w="-1" h="-1" measuredW="98" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>connect%26bm%3Bconnect.bmml%26bm%3Bconnect.bmml%26bm%3Bconnect.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22820%2C25%2C918%2C52%22%20href%3D%22connect.bmml%22%20alt%3D%22connect%22%20id%3D%2238%22/%3E</map>
+        <text>Decconexion</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::ComboBox" x="821" y="117" w="-1" h="-1" measuredW="98" measuredH="24" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>12/10/2014</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Icon" x="829" y="507" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HandPointIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Tooltip" x="852" y="507" w="127" h="77" measuredW="130" measuredH="0" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Comme%20prevu%0A32%20Rue%20de%20la%20Limiere</text>
       </controlProperties>
     </control>
   </controls>

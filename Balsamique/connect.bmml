@@ -1,0 +1,26 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="741" measuredH="420" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TitleWindow" x="291" y="20" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Optimod%20Lyon</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="427" y="119" w="193" h="-1" measuredW="31" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ID%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextInput" x="427" y="184" w="194" h="-1" measuredW="45" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pass%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="481" y="234" w="-1" h="-1" measuredW="84" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Superviseur%20preparation%26bm%3BSuperviseur%20preparation.bmml%26bm%3BSuperviseur%20preparation.bmml%26bm%3BSuperviseur%20preparation.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22190%2C214%2C274%2C241%22%20href%3D%22Superviseur%2520preparation.bmml%22%20alt%3D%22Superviseur%20preparation%22%20id%3D%224%22/%3E</map>
+        <text>Connexion</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

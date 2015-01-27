@@ -44,7 +44,7 @@
     </control>
     <control controlID="22" controlTypeID="com.balsamiq.mockups::ComboBox" x="821" y="140" w="151" h="-1" measuredW="70" measuredH="62" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Zone%201%0AZone%202%20-%20Romain%0AZone%203</text>
+        <text>Zone%201%0AZone%202%20-%20Romain%0AZone%203%20-%20Anthony%20...</text>
       </controlProperties>
     </control>
     <control controlID="24" controlTypeID="com.balsamiq.mockups::ComboBox" x="261" y="115" w="139" h="-1" measuredW="69" measuredH="93" zOrder="9" locked="false" isInGroup="-1">
@@ -62,9 +62,9 @@
         <icon>HandPointIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="30" controlTypeID="com.balsamiq.mockups::Accordion" x="943" y="354" w="150" h="84" measuredW="150" measuredH="159" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Accordion" x="943" y="354" w="150" h="112" measuredW="150" measuredH="186" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Supprimer%0AAjouter%20apres%20ce%20point%0AAjouter%20avant%20ce%20point</text>
+        <text>Supprimer%0AAjouter%20apres%20ce%20point%0AAjouter%20avant%20ce%20point%0AAfficher%20infos%20client</text>
       </controlProperties>
     </control>
     <control controlID="33" controlTypeID="com.balsamiq.mockups::Button" x="1065" y="140" w="-1" h="-1" measuredW="112" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
@@ -84,10 +84,24 @@
       </controlProperties>
     </control>
     <control controlID="38" controlTypeID="com.balsamiq.mockups::VSlider" x="442" y="330" w="-1" h="-1" measuredW="11" measuredH="33" zOrder="16" locked="false" isInGroup="-1"/>
-    <control controlID="39" controlTypeID="com.balsamiq.mockups::Button" x="1005" y="116" w="-1" h="-1" measuredW="172" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Button" x="907" y="116" w="-1" h="-1" measuredW="172" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>Suivie%20reeele%26bm%3BSuivie%20reeele.bmml%26bm%3BSuivie%20reeele.bmml%26bm%3BSuivie%20reeele.bmml</href>
         <icon>CameraIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22646%2C25%2C818%2C52%22%20href%3D%22Suivie%2520reeele.bmml%22%20alt%3D%22Suivie%20reeele%22%20id%3D%2239%22/%3E</map>
         <text>Suivre%20en%20temps%20reel</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Button" x="1079" y="116" w="-1" h="-1" measuredW="98" measuredH="27" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>connect%26bm%3Bconnect.bmml%26bm%3Bconnect.bmml%26bm%3Bconnect.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22818%2C25%2C916%2C52%22%20href%3D%22connect.bmml%22%20alt%3D%22connect%22%20id%3D%2240%22/%3E</map>
+        <text>Decconexion</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::ComboBox" x="812" y="115" w="-1" h="-1" measuredW="98" measuredH="24" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>12/10/2014</text>
       </controlProperties>
     </control>
   </controls>
