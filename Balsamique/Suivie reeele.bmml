@@ -116,7 +116,7 @@
     </control>
     <control controlID="42" controlTypeID="com.balsamiq.mockups::Tooltip" x="852" y="507" w="127" h="77" measuredW="130" measuredH="0" zOrder="22" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Comme%20prevu%0A32%20Rue%20de%20la%20Limiere</text>
+        <text>Comme%20prevu%0A32%20Rue%20de%20la%20Lumiere</text>
       </controlProperties>
     </control>
   </controls>
